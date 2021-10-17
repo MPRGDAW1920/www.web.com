@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Datos contacto Diw Tenis</title>
 </head>
 <body>
-    
+    <header>
+        <link rel="shortcut icon" type="image/x-icon" href="./assets/images/logo.ico">
+         <figure>
+            <a href="index.html"><img src="./assets/images/logo.png"
+                 alt="Logo Diw Tenis"></a>
+            <figcaption>Diw Tenis</figcaption>
+          </figure>
+        
+        <h1>Tenis a Precios Imbatibles</h1>      
+    </header> 
+    <nav>
+        <a href="index.html">Inicio</a>
+        <a href="servicios.html">Servicios</a>
+        <a href="contacto.html">Contacto</a>
+    </nav>   
+    <section>      
+        <article>
+            <h2>Contacte con Diw Tenis</h2>
+            <form>
+                <fieldset>
+                    <legend>Datos Personales</legend>
+                    <label>Nombre</label>
+                    <input name="nombre" id="nombre" type="text" maxlength="30" placeholder="Nombre" required pattern="[a-zA-Z]"  autofocus></br>
+                    <label>Correo Electrónico</label>
+                    <input name="correo" id="correo" type="email" maxlength="30" placeholder="Email" required></br>
+                    <label>Edad</label>
+                    <input name="edad" id="edad" type="number" pattern="[0-9] {2}" min="18" max="99" placeholder="Edad" required></br>
+                    <label>Teléfono</label>
+                    <input name="telefono" id="telefono" type="number" pattern="[0-9] {9}" placeholder="Teléfono" required></br>
+                    <textarea name="consulta" id="consulta" rows="10" cols="50" placeholder="¿Como podemos ayudarle?" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <label for="check">Acepto condiciones</label>
+                    <input type="checkbox" id="check"></br>
+                </fieldset>
+                <input type="button" value="Enviar">
+            </form>
+        </article>
+    </section>
+</br>
+</br>
+</br>
+</br>
+<footer>
+    <h4>Diw Tenis, S.A.U.</h4>
+    <h4>Contacte con nosostros</h4>
+    <a href="mailto:info@diwtenis">Por Correo Electrónico a Diw Tenis</a></br>
+    <a href="tel:+34111111111">Llame a Diw Tenis</a></br>
+</br>
+    <div><a href="privacidadycookies.html">Política de Privacidad y Cookies</a></div>
+</footer>
+
 </body>
 </html>
